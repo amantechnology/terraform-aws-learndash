@@ -6,10 +6,12 @@ Terraform module to deploy WordPress with LearnDash LMS installed. This is usefu
 
 You need an AWS account and knows how to use module in Terraform.
 
+```
 module "demo" {
   source  = "amantechnology/learndash/aws"
   version = "0.1.0"
 }
+```
 
 ## Reference
 
